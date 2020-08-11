@@ -167,7 +167,7 @@ flags.DEFINE_integer("eval_steps", None,
 flags.DEFINE_string("sentiment_file", "data/sentiment_dict.json",
                     "Dictionary of sentiment categories.")
 
-flags.DEFINE_string("entailment_file", "entailment_dict.json",
+flags.DEFINE_string("entailment_file", "data/ekman_mapping.json",
                     "Dictionary of entailments.")
 
 flags.DEFINE_string(
