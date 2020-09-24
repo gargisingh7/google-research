@@ -116,6 +116,7 @@ def main(_):
 
   # Compute the correlation matrix
   corr = ratings.corr()
+  print(type(corr))
 
   # Generate a mask for the upper triangle
   mask = np.zeros_like(corr, dtype=np.bool)
