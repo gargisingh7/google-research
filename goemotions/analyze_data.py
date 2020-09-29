@@ -116,6 +116,7 @@ def main(_):
 
   # Compute the correlation matrix
   corr = ratings.corr()
+  corr.to_csv('../../drive/My Drive/correlationMatrix.csv')
   print(type(corr))
 
   # Generate a mask for the upper triangle
